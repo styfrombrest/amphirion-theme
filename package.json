@@ -5,7 +5,7 @@
   "categories": [
     "Themes"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "sty.brest@gmail.com",
   "engines": {
     "vscode": "*"
@@ -13,7 +13,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark",
+        "label": "Dark (styfrombrest)",
         "uiTheme": "vs-dark",
         "path": "./themes/styfrombrest-theme.tmTheme"
       }

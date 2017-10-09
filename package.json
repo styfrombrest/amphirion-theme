@@ -1,0 +1,22 @@
+{
+  "name": "theme-styfrombrest",
+  "displayName": "styfrombrest's theme",
+  "description": "My own VS Code dark theme with a touch of color. Based on VSC-dark theme.",
+  "categories": [
+    "Themes"
+  ],
+  "version": "0.1.0",
+  "publisher": "sty.brest@gmail.com",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/styfrombrest-theme.tmTheme"
+      }
+    ]
+  }
+}

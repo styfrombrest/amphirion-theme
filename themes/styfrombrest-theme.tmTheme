@@ -24,7 +24,7 @@
 				<key>invisibles</key>
 				<string>#FFFFFF40</string>
 				<key>lineHighlight</key>
-				<string>#0F0F0F</string>
+				<string>#1E1E1E</string>
 				<key>selection</key>
 				<string>#264F78</string>
 			</dict>
@@ -75,8 +75,6 @@
 			<string>keyword.operator.comparison</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#DCDCDC</string>
 			</dict>
@@ -88,8 +86,6 @@
 			<string>keyword.operator.assignment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#DCDCDC</string>
 			</dict>
@@ -101,8 +97,6 @@
 			<string>keyword.operator.arithmetic</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#DCDCDC</string>
 			</dict>
@@ -245,9 +239,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#569CD6</string>
+				<string>#CC7832</string>
 				<key>fontStyle</key>
-				<string> bold  </string>
+				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -310,10 +304,8 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#DCDCDC</string>
+				<string>#569CD6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -323,10 +315,10 @@
 			<string>support.class, support.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#DCDCDC</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -336,8 +328,6 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#B5CEA8</string>
 			</dict>
@@ -701,7 +691,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.visual_studio_dark</string>
+	<string>theme.dark.styfrombrests_theme</string>
 	<key>comment</key>
 	<string>Based on VSC dark</string>
 </dict>

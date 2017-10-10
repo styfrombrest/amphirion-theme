@@ -15,7 +15,7 @@
       {
         "label": "Dark theme (styfrombrest)",
         "uiTheme": "vs-dark",
-        "path": "./themes/styfrombrest-theme.tmTheme"
+        "path": "./themes/styfrombrest-theme.json"
       }
     ]
   }

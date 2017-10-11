@@ -189,6 +189,14 @@
 			}
 		},
 		{
+			"name": "Library Type",
+			"scope": "support.type",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8AC6F2"
+			}
+		},
+		{
 			"name": "JS: Operator",
 			"scope": "keyword.operator.js",
 			"settings": {
@@ -250,7 +258,7 @@
 			"name": "Markup name of tag",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#E8BF6A"
 			}
 		},
 		{

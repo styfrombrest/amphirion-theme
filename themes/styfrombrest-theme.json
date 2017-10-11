@@ -33,10 +33,18 @@
 			}
 		},
 		{
-			"name": "Keyword",
-			"scope": "keyword",
+			"name": "this.self",
+			"scope": "variable.language",
 			"settings": {
-				"fontStyle": "",
+				"fontStyle": "bold",
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "Control flow keywords",
+			"scope": "keyword.control",
+			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
@@ -110,22 +118,6 @@
 			}
 		},
 		{
-			"name": "Preprocessor line",
-			"scope": "meta.preprocessor",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#9B9B9B"
-			}
-		},
-		{
-			"name": "Preprocessor directive",
-			"scope": "keyword.control.import",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#9B9B9B"
-			}
-		},
-		{
 			"name": "Function name",
 			"scope": "entity.name.function, keyword.other.name-of-parameter.objc",
 			"settings": {
@@ -190,25 +182,10 @@
 			}
 		},
 		{
-			"name": "Library object",
-			"scope": "support.class, support.type",
-			"settings": {
-				"foreground": "#DCDCDC",
-				"fontStyle": " bold"
-			}
-		},
-		{
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
 				"foreground": "#B5CEA8"
-			}
-		},
-		{
-			"name": "Library variable",
-			"scope": "support.variable",
-			"settings": {
-				"foreground": "#DCDCDC"
 			}
 		},
 		{

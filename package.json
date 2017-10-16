@@ -1,7 +1,7 @@
 {
-  "name": "theme-styfrombrest",
-  "displayName": "styfrombrest's theme",
-  "description": "My own VS Code dark theme with a touch of color. Based on VSC-dark theme.",
+  "name": "amphirion-theme",
+  "displayName": "Amphirion theme(dark)",
+  "description": "Dark syntax theme extension for Visual Studio Code based on based on Darcula theme from Jetbrains IDE.",
   "categories": [
     "Themes"
   ],
@@ -13,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark theme (styfrombrest)",
+        "label": "Amphirion theme(dark)",
         "uiTheme": "vs-dark",
-        "path": "./themes/styfrombrest-theme.json"
+        "path": "./themes/amphirion-theme.json"
       }
     ]
   }

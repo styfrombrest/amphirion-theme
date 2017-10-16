@@ -175,6 +175,14 @@
 			}
 		},
 		{
+			"name": "Support variables: obj.^var^",
+			"scope": "support.variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#6796e6"
+			}
+		},
+		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
@@ -247,11 +255,27 @@
 			"settings": {}
 		},
 		{
-			"name": "Markup tag",
+			"name": "Markup tag: <tag>^content^</tag>",
 			"scope": "meta.tag, declaration.tag",
 			"settings": {
 				"fontStyle": "",
+				"foreground": "#FFF"
+			}
+		},
+		{
+			"name": "brackets of XML/HTML tags",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
 				"foreground": "#808080"
+			}
+		},	
+		{
+			"name": "Block boundaries: {}();",
+			"scope": "meta.block",
+			"settings": {
+				"foreground": ""
 			}
 		},
 		{

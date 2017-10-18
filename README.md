@@ -1,6 +1,6 @@
 # Amphirion - dark theme for VS Code
 
-Yet another dark syntax theme extension for Visual Studio Code based on based on Darcula theme from Jetbrains IDE.
+Yet another dark syntax theme extension for Visual Studio Code inspired by Darcula theme from Jetbrains IDE.
 
 ## Screenshot
 
@@ -13,5 +13,16 @@ Yet another dark syntax theme extension for Visual Studio Code based on based on
 
 Enjoy!
 
-Schema: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/services/themes/common/colorThemeSchema.ts
+## Theme Colors
 
+Some semantic meaning is intended for colors to help easily read code. They are documented here for reference.
+
+- Green: Strings
+- Orange: 
+    - Bold: Language keywords, boolean, 
+- Blue: 
+    - Bold: Numbers
+    - Light: Property name
+- Olive: length units, property-values and etc
+
+Scope docs: https://www.sublimetext.com/docs/3/scope_naming.html

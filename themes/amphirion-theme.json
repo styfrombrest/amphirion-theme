@@ -42,7 +42,7 @@
 		},
 		{
 			"name": "Control flow keywords",
-			"scope": "keyword.control",
+			"scope": ["keyword.control", "storage.modifier"],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
@@ -70,16 +70,16 @@
 			}
 		},
 		{
-			"name": "Number",
+			"name": "Numbers",
 			"scope": "constant.numeric",
 			"settings": {
-				"fontStyle": "",
+				"fontStyle": "bold",
 				"foreground": "#5074BB"
 			}
 		},
 		{
-			"name": "User-defined constant",
-			"scope": "constant",
+			"name": "Constants: units, property-values & other",
+			"scope": ["support.constant", "constant"],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#B4CEA8"
@@ -142,13 +142,6 @@
 			}
 		},
 		{
-			"name": "Type modifier",
-			"scope": "storage.modifier",
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
 			"name": "Inherited class name",
 			"scope": "entity.other.inherited-class",
 			"settings": {
@@ -190,13 +183,6 @@
 			}
 		},
 		{
-			"name": "Library constant",
-			"scope": "support.constant",
-			"settings": {
-				"foreground": "#B5CEA8"
-			}
-		},
-		{
 			"name": "Library Type",
 			"scope": "support.type",
 			"settings": {
@@ -217,6 +203,13 @@
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#ff3333"
+			}
+		},
+		{
+			"name": "Invalid illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"border-bottom": "1px dashed rgba(255, 44, 109, 0.5)"
 			}
 		},
 		{

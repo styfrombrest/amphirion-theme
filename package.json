@@ -2,11 +2,12 @@
   "name": "amphirion-theme",
   "displayName": "Amphirion theme(dark)",
   "description": "Dark syntax theme extension for Visual Studio Code inspired by Darcula theme from Jetbrains IDE.",
+  "license": "MIT",
   "categories": [
     "Themes"
   ],
   "version": "0.1.1",
-  "author": "Taras Semenyuk",
+  "author": "Taras S",
   "publisher": "styfrombrest",
   "engines": {
     "vscode": "*"
@@ -15,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/styfrombrest/amphirion-theme"
   },
-  "icon": "logo/amphiriton.png",
+  "icon": "assets/logo/amphiriton.png",
   "homepage": "https://github.com/styfrombrest/amphirion-theme",
   "galleryBanner": {
     "color": "#1e1e1e",
@@ -29,5 +30,9 @@
         "path": "./themes/amphirion-theme.json"
       }
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/styfrombrest/amphirion-theme/issues",
+    "email": "sty.brest@gmail.com"
   }
 }

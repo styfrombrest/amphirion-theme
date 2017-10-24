@@ -4,9 +4,11 @@ Yet another dark syntax theme extension for Visual Studio Code inspired by Darcu
 
 ## Screenshot
 
+
+
 ## Support
 - JavaScript: JS, ES6, JSX.
-- Markup: HTML.
+- Markup: HTML, Markdown(.md).
 - CSS.
 
 ## Installation
@@ -19,10 +21,18 @@ Some semantic meaning is intended for colors to help easily read code. They are 
 
 - Green: Strings
 - Orange: 
-    - Bold: Language keywords, boolean, 
+    - Bold: Language keyword, boolean
 - Blue: 
-    - Bold: Numbers
+    - Bold: Number
     - Light: Property name
-- Olive: length units, property-values and etc
+    - Markup headers
+    - Support function name
+- Olive: length unit, property-value
+    - CSS: font name const
+- Yellow: function name
+- Light gray: 
+    - Italic: inherited classes
+    - Other.
+- Gray: comments
 
 Scope docs: https://www.sublimetext.com/docs/3/scope_naming.html

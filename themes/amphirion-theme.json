@@ -49,7 +49,7 @@
 			}
 		},
 		{
-			"name": "Comparision Operator",
+			"name": "Comparison Operator",
 			"scope": "keyword.operator.comparison",
 			"settings": {
 				"foreground": "#DCDCDC"
@@ -161,10 +161,18 @@
 			}
 		},
 		{
-			"name": "Section",
-			"scope": "meta.section entity.name.section, declaration.section entity.name.section",
+			"name": "JS: Class",
+			"scope": "entity.name.type",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#FFF"
+			}
+		},
+		{
+			"name": "JS: Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#DCDCDC"
 			}
 		},
 		{
@@ -245,7 +253,9 @@
 		{
 			"name": "Markup DTD",
 			"scope": "meta.doctype.DTD, declaration.doctype.DTD",
-			"settings": {}
+			"settings": {
+				"foreground": "#808080"
+			}
 		},
 		{
 			"name": "Markup tag: <tag>^content^</tag>",
@@ -317,59 +327,52 @@
 			}
 		},
 		{
-			"name": "§ css tag-name",
+			"name": "CSS tag-name",
 			"scope": "meta.selector.css entity.name.tag",
 			"settings": {
 				"foreground": "#D7BA7D"
 			}
 		},
 		{
-			"name": "§ css:pseudo-class",
+			"name": "CSS:pseudo-class",
 			"scope": "meta.selector.css entity.other.attribute-name.tag.pseudo-class",
 			"settings": {
 				"foreground": "#D7BA7D"
 			}
 		},
 		{
-			"name": "§ css#id",
+			"name": "CSS#id",
 			"scope": "meta.selector.css entity.other.attribute-name.id",
 			"settings": {
 				"foreground": "#D7BA7D"
 			}
 		},
 		{
-			"name": "§ css.class",
+			"name": "CSS.class",
 			"scope": "meta.selector.css entity.other.attribute-name.class",
 			"settings": {
 				"foreground": "#D7BA7D"
 			}
 		},
 		{
-			"name": "§ css property-name:",
+			"name": "CSS property-name:",
 			"scope": "support.type.property-name.css",
 			"settings": {
 				"foreground": "#9CDCFE"
 			}
 		},
 		{
-			"name": "§ css property-value;",
+			"name": "CSS property-value;",
 			"scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
 			"settings": {
 				"foreground": "#C8C8C8"
 			}
 		},
 		{
-			"name": "§ css @at-rule",
+			"name": "CSS @at-rule",
 			"scope": "meta.preprocessor.at-rule keyword.control.at-rule",
 			"settings": {
 				"foreground": "#87CEFA"
-			}
-		},
-		{
-			"name": "C#: XML Comment Tags",
-			"scope": "source.cs comment.block.documentation.source.cs meta.tag.xml, source.cs comment.block.documentation.source.cs meta.tag.xml entity.name.tag.localname.xml, source.cs comment.block.documentation.source.cs meta.tag.xml entity.other.attribute-name",
-			"settings": {
-				"foreground": "#608B4E"
 			}
 		},
 		{

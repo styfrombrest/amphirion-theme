@@ -4,7 +4,7 @@ Yet another dark syntax theme extension for Visual Studio Code inspired by Darcu
 
 ## Screenshot
 
-![Screenshot](https://github.com/styfrombrest/assets/screenshot.png)
+![Amphirion dark theme for VS Code screenshot](/assets/screenshot.png?raw=true "Amphirion dark theme for VS Code screenshot")
 
 ## Support
 

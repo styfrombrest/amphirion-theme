@@ -1,39 +1,44 @@
 {
-  "name": "amphirion-theme",
-  "displayName": "Amphirion theme(dark)",
-  "description": "Dark syntax theme extension for Visual Studio Code inspired by Darcula theme from Jetbrains IDE.",
-  "keywords": ["vscode", "color-theme", "theme", "dark"],
-  "license": "MIT",
-  "categories": [
-    "Themes"
-  ],
-  "version": "0.1.1",
-  "author": "Taras <taras@styfrombrest.tk>",
-  "publisher": "styfrombrest",
-  "engines": {
-    "vscode": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/styfrombrest/amphirion-theme"
-  },
-  "icon": "assets/logo/amphirion.png",
-  "homepage": "https://github.com/styfrombrest/amphirion-theme",
-  "galleryBanner": {
-    "color": "#1e1e1e",
-    "theme": "dark"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Amphirion theme(dark)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/amphirion-theme.json"
-      }
-    ]
-  },
-  "bugs": {
-    "url": "https://github.com/styfrombrest/amphirion-theme/issues",
-    "email": "sty.brest@gmail.com"
-  }
+    "name": "amphirion-theme",
+    "displayName": "Amphirion theme(dark)",
+    "description": "Dark syntax theme extension for Visual Studio Code inspired by Darcula theme from Jetbrains IDE.",
+    "keywords": [
+        "vscode",
+        "color-theme",
+        "theme",
+        "dark"
+    ],
+    "license": "MIT",
+    "categories": [
+        "Themes"
+    ],
+    "version": "0.1.2",
+    "author": "Taras <taras@styfrombrest.tk>",
+    "publisher": "styfrombrest",
+    "engines": {
+        "vscode": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/styfrombrest/amphirion-theme"
+    },
+    "icon": "assets/logo/amphirion.png",
+    "homepage": "https://github.com/styfrombrest/amphirion-theme",
+    "galleryBanner": {
+        "color": "#1e1e1e",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Amphirion theme(dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/amphirion-theme.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/styfrombrest/amphirion-theme/issues",
+        "email": "sty.brest@gmail.com"
+    }
 }

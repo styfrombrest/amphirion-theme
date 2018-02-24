@@ -8,7 +8,7 @@ Yet another dark syntax theme extension for Visual Studio Code inspired by Darcu
 
 ## Support
 
-* JavaScript(ES6), JSX, React, Vue.
+* JavaScript(ES6), JSX, React/React Native, Vue.
 * Markup: HTML, Markdown(.md).
 * CSS.
 
